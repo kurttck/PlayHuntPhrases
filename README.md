@@ -42,22 +42,22 @@
 Asegúrate de tener PostgreSQL instalado y en funcionamiento. Crea una base de datos para el proyecto:
 
 ```sql
-CREATE DATABASE playhunt_phrases;
+CREATE DATABASE playhuntphrases;
 ````
 ## 2. Configuración del backend (Java + Spring Boot)
 
 1. Clona el repositorio del proyecto:
 
     ```bash
-    git clone https://github.com/usuario/playhunt-phrases-backend.git
-    cd playhunt-phrases-backend
+    git clone https://github.com/kurttck/PlayHuntPhrases.git
+    cd playhunt-back
     ```
 
 2. Configura las variables de entorno para la base de datos en tu sistema:
 
     ```bash
     export DB_HOST=localhost
-    export DB_NAME=playhunt_phrases
+    export DB_NAME=playhuntphrases
     export DB_USER=tu_usuario
     export DB_PASSWORD=tu_contraseña
     ```
@@ -73,8 +73,7 @@ CREATE DATABASE playhunt_phrases;
 1. Clona el repositorio del frontend:
 
     ```bash
-    git clone https://github.com/usuario/playhunt-phrases-frontend.git
-    cd playhunt-phrases-frontend
+    cd playhunt-front
     ```
 
 2. Instala las dependencias necesarias:
