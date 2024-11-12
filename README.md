@@ -44,6 +44,19 @@ Asegúrate de tener PostgreSQL instalado y en funcionamiento. Crea una base de d
 ```sql
 CREATE DATABASE playhuntphrases;
 ````
+```Por si quieres ingresar datos te facilito algunos
+insert into phrases(phrase, game, character, image) values('No importa cuántas veces caigas, lo importante es cuántas veces te levantas.','Final Fantasy X','Auron','https://i.imgur.com/T4icgN6.jpeg')
+insert into phrases(phrase, game, character, image) values('Un hombre fuerte no necesita leer el futuro. Él lo crea.','Metal Gear Solid','Solid Snake','https://w0.peakpx.com/wallpaper/64/1014/HD-wallpaper-solid-snake-metal-gear-solid.jpg')
+insert into phrases(phrase, game, character, image) values('El ciclo termina aquí. Debemos ser mejores.','God of War','Kratos','https://www.chromethemer.com/download/hd-wallpapers/god-of-war-kratos-3840x2160.jpg')
+insert into phrases(phrase, game, character, image) values('El tiempo pasa, la gente viene y va. Pero nada puede borrar las memorias de importantes momentos.','The Legend of Zelda: Ocarina of Time','Link','https://e0.pxfuel.com/wallpapers/339/769/desktop-wallpaper-the-master-sword-in-the-temple-of-time-ocarina-of-time-legend-young-link.jpg')
+insert into phrases(phrase, game, character, image) values('No estoy aquí por el pasado, ni por lo que pasó. Estoy aquí por el futuro.','Final Fantasy VII','Cloud Strife','https://mrwallpaper.com/images/hd/cloud-strife-wallpaper-z4yzy1hjb2zl5pak.jpg')
+insert into phrases(phrase, game, character, image) values('Cuando estás perdido en la oscuridad, busca la luz.','The Last of Us','Joel','https://mrwallpaper.com/images/hd/joel-and-ellie-hiding-the-last-of-us-8vwz9dbinbbzscxv.jpg')
+insert into phrases(phrase, game, character, image) values('La valentía es luchar aun cuando no tienes ninguna posibilidad de ganar.','Metroid','Samus Aran','https://images7.alphacoders.com/119/thumb-1920-1199150.jpg')
+insert into phrases(phrase, game, character, image) values('Quizás si sigues adelante, encuentres la respuesta que estás buscando.','Final Fantasy X','Tidus','https://cdn2.steamgriddb.com/hero_thumb/846b5ac2fa57bc8f576bde1449f8f32c.jpg')
+insert into phrases(phrase, game, character, image) values('Tú no necesitas una razón para ayudar a alguien.','Final Fantasy IX','Zidane Tribal','https://images6.alphacoders.com/901/thumb-1920-901006.jpg')
+insert into phrases(phrase, game, character, image) values('No me rendiré. Así es cómo me he forjado, y así es cómo he logrado llegar tan lejos. No importa cuántas veces caiga, mi fe me levantará de nuevo.','Dark Souls','Solaire de Astora','https://i.pinimg.com/originals/98/6d/4d/986d4dda38c1272013d7d37e0c84fc41.jpg')
+```
+
 ## 2. Configuración del backend (Java + Spring Boot)
 
 1. Clona el repositorio del proyecto:
