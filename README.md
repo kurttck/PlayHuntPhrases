@@ -44,7 +44,9 @@ Asegúrate de tener PostgreSQL instalado y en funcionamiento. Crea una base de d
 ```sql
 CREATE DATABASE playhuntphrases;
 ````
-```Por si quieres ingresar datos te facilito algunos
+
+Te facilito algunos datos.
+```sql
 insert into phrases(phrase, game, character, image) values('No importa cuántas veces caigas, lo importante es cuántas veces te levantas.','Final Fantasy X','Auron','https://i.imgur.com/T4icgN6.jpeg')
 insert into phrases(phrase, game, character, image) values('Un hombre fuerte no necesita leer el futuro. Él lo crea.','Metal Gear Solid','Solid Snake','https://w0.peakpx.com/wallpaper/64/1014/HD-wallpaper-solid-snake-metal-gear-solid.jpg')
 insert into phrases(phrase, game, character, image) values('El ciclo termina aquí. Debemos ser mejores.','God of War','Kratos','https://www.chromethemer.com/download/hd-wallpapers/god-of-war-kratos-3840x2160.jpg')
