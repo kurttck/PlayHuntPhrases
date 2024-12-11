@@ -7,7 +7,7 @@ import { tap, catchError } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class ApiService {
-  private baseURL = 'http://localhost:8080';
+  private baseURL = 'https://hearty-commitment-production.up.railway.app';
   private phrase: any;
 
   private httpOptions = {
