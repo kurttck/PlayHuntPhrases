@@ -14,7 +14,7 @@
 ## 🔧 Tecnologías Utilizadas
 
 ### Front-End:
-- **Framework**: Angular 18, Tailwindcss.
+- **Framework**: React, Tailwindcss.
 - **Lenguaje**: TypeScript.
 
 ### Back-End:
@@ -30,10 +30,7 @@
 - **Java 8 o superior**: PlayHunt Game Manager está desarrollado en Java, por lo que necesitas tener el JDK instalado.
 - **Spring Boot**: Framework utilizado para la estructura del proyecto y manejo de dependencias.
 - **PostgreSQL**: Base de datos relacional donde se almacenan los datos de los videojuegos.
-- **Angular 18**: Framework para el desarrollo del front-end que permite crear una interfaz de usuario dinámica e interactiva.
-  - **Node.js**: Angular requiere Node.js para ejecutar el CLI y gestionar dependencias. Se recomienda tener la versión 18 o superior.
-  - **Angular CLI**: Herramienta de línea de comandos de Angular para la creación, desarrollo y despliegue de la aplicación. Puedes instalarla con `npm install -g @angular/cli`.
-  - **NPM (Node Package Manager)**: Para instalar y gestionar las dependencias de Angular. Suele venir con Node.js.
+- **React**: Framework para el desarrollo del front-end que permite crear una interfaz de usuario dinámica e interactiva.
  
 # Instalación
 
@@ -83,7 +80,7 @@ insert into phrases(phrase, game, character, image) values('No me rendiré. Así
     ./mvnw spring-boot:run
     ```
 
-## 3. Configuración del frontend (Angular 18)
+## 3. Configuración del frontend (React)
 
 1. Clona el repositorio del frontend:
 
@@ -97,18 +94,15 @@ insert into phrases(phrase, game, character, image) values('No me rendiré. Así
     npm install
     ```
 
-3. Inicia el servidor de desarrollo de Angular:
+3. Inicia el servidor de desarrollo de React:
 
     ```bash
-    ng serve
+    nom run dev
     ```
-
-El servidor de desarrollo estará disponible en `http://localhost:4200`.
 
 ## 4. Acceso a la aplicación
 
 - El backend por defecto se ejecuta en `http://localhost:8080`.
-- El frontend en `http://localhost:4200`.
 
 Asegúrate de que el frontend se comunique con la API del backend configurando los endpoints de forma adecuada en el archivo de configuración de Angular.
 
